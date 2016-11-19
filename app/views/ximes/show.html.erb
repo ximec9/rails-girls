@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @xime.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @xime.description %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @xime.picture %>
+</p>
+
+<%= link_to 'Edit', edit_xime_path(@xime) %> |
+<%= link_to 'Back', ximes_path %>

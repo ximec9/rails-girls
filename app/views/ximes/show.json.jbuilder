@@ -1,0 +1,1 @@
+json.partial! "ximes/xime", xime: @xime

@@ -1,0 +1,1 @@
+json.array! @ximes, partial: 'ximes/xime', as: :xime
